@@ -1,0 +1,118 @@
+:root {
+  --color-primary: #271247;
+  --color-secondary: white;
+  --color-tertiary: pink;
+  --color-primary-light: rgba(10,10,10,0.5);
+}
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i';
+
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 1rem 1rem 0;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--color-tertiary);
+  background: var(--color-primary);
+  max-width: 60rem;
+  margin: auto;
+}
+
+a {
+  color: var(--color-tertiary);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-tertiary);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+.country{
+text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+
+.navigation {
+  margin: 0 0 1.75rem;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+
+.navigation li a:focus,
+.navigation li a:active {
+  color: var(--color-secondary);
+}
+
+.card__title .fa,
+.card__date .fa,
+.card__source .fa {
+  padding-right: 0.5rem;
+}
+
+.logo {
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+.card {
+  margin: 0 0 1.75rem;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__link {
+  display: block;
+}
+
+.card__link:hover,
+.card__link:active {
+  color: var(--color-secondary);
+}
+
+.card__image {
+  margin: 0 0 1rem;
+  border: 0.25rem solid var(--color-tertiary);
+  background: var(--color-primary-light);
+}
+
+.card__source {
+  display: block;
+}
+
+.card__date {
+  display: block;
+  margin: 0 0 1rem;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #355e63;
+  color: white;
+  text-align: center;
+  opacity: 0.5;
+}
