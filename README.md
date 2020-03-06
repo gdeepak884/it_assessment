@@ -1,5 +1,6 @@
+A News Application
 
-#Technology Stack:
+Technology Stack:
 Vanila JS
 CSS
 HTML
